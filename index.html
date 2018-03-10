@@ -10,8 +10,8 @@
 
 
     <title>Cyrstal Collector Game</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assests/javascript/game.js"></script>
+
+
 </head>
 
 <body>
@@ -34,16 +34,17 @@
     </div>
 
     <div id="main-container" class="container">
-        <button id="numberToGuess" class="btn btn-primary btn-lg">
+        <button id="numberToGuess">
 
             ?
 
         </button>
 
         <section class="sidebar">
-            <div id="connect">
-                <p>Wins:</p>
-                <p>Losses:</p>
+            <div id="Stats">
+
+                <p id="Wins">Wins:</p>
+                <p id="Losses">Losses:</p>
 
             </div>
 
@@ -51,24 +52,23 @@
     </div>
 
     <div id="Crystals">
+        <button>    <img src="assests/images/Crystals-occur-in-nature-2016012906.svg" id="images1" ></button>
+        <button>    <img src="assests/images/Red.jpeg" id="images2"></button>
+        <button>    <img src="assests/images/s-l640.jpg" id="images3"></button>
+        <button>    <img src="assests/images/DIy%20Crystals.jpg" id="images4"></button>
 
-        <img src="assests/images/Crystals-occur-in-nature-2016012906.svg" id="images" >
-        <img src="assests/images/Red.jpeg" id="images">
-        <img src="assests/images/s-l640.jpg" id="images">
-        <img src="assests/images/DIy%20Crystals.jpg" id="images">
     </div>
 
     <div class="Score">
         <p>Your Total Score is:</p>
-
     </div>
-
-    <div id="Final">
-        <p>Final Score</p>
-    </div>
+    <div id="Final-Score"></div>
 
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assests/javascript/game.js"></script>
 
 </body>
+
 </html>
